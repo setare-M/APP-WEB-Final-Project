@@ -164,7 +164,7 @@ body{
 }
 
 .about-afg{
-    display: block;
+    display: flex;
     gap: 30px;
     justify-content: center;
     margin-left: auto;
@@ -190,7 +190,7 @@ body{
     margin-top: 0;
 }
 
-.top-provinces h1{
+.top-prov h1{
     text-align: center;
     width: 400px;
     font-size: 40px;
@@ -204,7 +204,7 @@ body{
     font-family: sans-serif;
 }
 
-.top-provinces p{
+.top-prov p{
     font-size: large;
     font-weight: bold;
     font-family: sans-serif;
