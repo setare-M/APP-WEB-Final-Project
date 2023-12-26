@@ -5,13 +5,13 @@
 }
 body{
     box-sizing: border-box;
-    background: rgb(177, 11, 11);
+    background: lightgreen;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #nav{
-    background-color: rgb(110, 7, 7);
+    background-color: green;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -51,7 +51,7 @@ body{
     text-align: center;
   }
 
-.container2{
+.container{
     width: 800px;
     height: 100%;
     background-color: #fff;
@@ -72,31 +72,13 @@ body{
 .main-img{
     position: relative;
 }
-img-captoin{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: sans-serif;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    color: rgb(243, 231, 231);
-    position: absolute;
-    top: 300px;
-    right: 0;
-    visibility: hidden;
-}
-
-.main-img:hover .img-caption{
-    visibility: visible;
-}
 
 .about h1{
     text-align: center;
     width: 300px;
     font-size: 40px;
-    color: rgb(66, 4, 4);
-    border-bottom: 2px solid rgb(48, 2, 2);
+    color: black;
+    border-bottom: 2px solid black;
     margin-top: 50px;
     font-weight: bold;
     justify-content: center;
@@ -109,7 +91,7 @@ img-captoin{
     font-weight: bold;
     font-family: sans-serif;
     text-align: center;
-    color: rgb(70, 2, 2);
+    color: green;
     margin-top: 30px;
 }
 .about2{
@@ -124,65 +106,64 @@ img-captoin{
 
 .info1 p{
     font-family: sans-serif;
-    color: grey;
+    color: black;
     text-align: center;
 }
 
 .info1 h2{
     font-family: sans-serif;
-    color: grey;
+    color: black;
     text-align: center;
 }
 .info1{
-    border-right: 2px solid grey;
+    border-right: 2px solid black;
     padding: 10px;
 }
 
 .info2 p{
     font-family: sans-serif;
-    color: grey;
+    color: black;
     text-align: center;
 }
 
 .info2 h2{
     font-family: sans-serif;
-    color: grey;
+    color: black;
     text-align: center;
 }
 .info2{
-    border-right: 2px solid grey;
+    border-right: 2px solid black;
     padding: 10px;
 }
 
 
 .info3 p{
     font-family: sans-serif;
-    color: grey;
+    color: black;
     text-align: center;
 }
 
 .info3 h2{
     font-family: sans-serif;
-    color: grey;
+    color: black;
     text-align: center;
 }
 .info3{
-    border-right: 2px solid grey;
+    border-right: 2px solid black;
     padding: 10px;
 }
   
 
 .caption2 p{
     font-size: large;
-    font-family: cursive;
-    font-weight: bold;
     font-family: sans-serif;
+    font-weight: bold;
     text-align: center;
-    color: rgb(70, 2, 2);
+    color: green;
     margin-top: 30px;
 }
 
-.about-usc-pic{
+.about-afg{
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -195,7 +176,7 @@ img-captoin{
     width: 230px;
     height: 260px;
     object-fit: fill;
-    border: 10px solid rgb(78, 3, 3);
+    border: 10px solid black;
 }
 .pic-caption{
     width: 100%;
@@ -204,17 +185,17 @@ img-captoin{
     font-family: sans-serif;
     font-weight: bold;
     color: #fff;
-    background-color: rgb(71, 2, 2);
+    background-color: black;
     padding-top: 20px;
     margin-top: 0;
 }
 
-.top-uni h1{
+.top-provinces h1{
     text-align: center;
     width: 400px;
     font-size: 40px;
-    color: rgb(66, 4, 4);
-    border-bottom: 2px solid rgb(48, 2, 2);
+    color: green;
+    border-bottom: 2px solid green;
     margin-top: 50px;
     font-weight: bold;
     justify-content: center;
@@ -223,16 +204,16 @@ img-captoin{
     font-family: sans-serif;
 }
 
-.top-uni p{
+.top-provinces p{
     font-size: large;
     font-weight: bold;
     font-family: sans-serif;
     text-align: center;
-    color: rgb(70, 2, 2);
+    color: green;
     margin-top: 30px;
 }
 
-.more-universities{
+.top-provinces{
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -246,7 +227,7 @@ img-captoin{
     font-family: sans-serif;
     width: 400px;
     font-weight: bold;
-    color: grey;
+    color: green;
 }
 
 .row2 img{
@@ -265,27 +246,27 @@ img-captoin{
     padding: 30px;
     padding-top: 200px;
     padding-bottom: 200px;
-    border: 20px dashed rgb(71, 1, 1);
-    animation-name: thanks;
+    border: 20px solid green;
+    animation-name: scale;
     animation-duration: 6s;
     animation-delay: 0;
     animation-play-state: running;
     animation-iteration-count: 1;
 }
 
-@keyframes thanks{
+@keyframes scale{
     from{
-        transform: scale(0);
+        transform: scalex(0);
     }
     to{
-        transform: scale(1);
+        transform: scalex(1);
     }
 }
 .thanks-container h1{
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
-    color: rgb(77, 4, 4);
+    color: green;
     text-align: center;
     margin-bottom: 100px;
 }
@@ -309,7 +290,7 @@ img-captoin{
     padding-top: 20px;
     width: 100%;
     height: 50px;
-    background-color: rgb(68, 2, 2);
+    background-color: lightgreen;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -321,12 +302,12 @@ img-captoin{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    border: 20px solid rgb(34, 5, 5);
+    border: 5px solid black;
 }
 textarea{
     width: 100%;
     height: 100px;
-    background-color: rgb(148, 47, 47);
+    background-color: lightgreen;
 
 }
 button{
@@ -344,19 +325,14 @@ button{
     padding-bottom: 10px;
     border-radius: 50px;
     font-weight: bold;
-    animation-name: thanks;
-    animation-duration: 6s;
-    animation-delay: 0;
-    animation-play-state: running;
-    animation-iteration-count: 3;
-    background-color: rgb(82, 3, 3);
+    background-color: grey;
     text-align: center;
 }
 .form-container input{
     text-align: left;
     font-family: sans-serif;
     font-weight: bold;
-    background-color: rgb(196, 13, 13);
+    background-color: gold;
     height: 50px;
     width: 100%;
     display: block;
@@ -366,13 +342,13 @@ button{
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bold;
-    color: rgb(71, 4, 4);
+    color: green;
     text-align: center;
 }
 #footer{
     width: 100%;
     height: 580px;
-    background-color: rgb(110, 7, 7);
+    background-color: green;
 }
 
 .footer-caption1{
@@ -386,7 +362,7 @@ button{
 
 .footer-caption1 .footer-caption1-head{
     color: #fff;
-    font-family: cursive;
+    font-family: sans-serif;
     font-weight: lighter;
     font-size: 50px;
     text-align: center;
@@ -394,7 +370,7 @@ button{
 .footer-caption1 span{
     color: #fff;
     display: block;
-    font-family: cursive;
+    font-family: sans-serif;
     font-weight: lighter;
     font-size: 40px;
     text-align: center;
@@ -411,7 +387,7 @@ button{
 
 .footer-caption2 .footer-caption2-head{
     color: #fff;
-    font-family: cursive;
+    font-family: sans-serif;
     font-weight: lighter;
     font-size: 50px;
     text-align: center;
@@ -419,7 +395,7 @@ button{
 .footer-caption2 span{
     color: #fff;
     display: block;
-    font-family: cursive;
+    font-family: sans-serif;
     font-weight: lighter;
     font-size: 40px;
     text-align: center;
@@ -427,9 +403,9 @@ button{
 #footer2 {
     width: 100%;
     height: 60px;
-    background-color: rgb(63, 3, 3);
+    background-color: lightgreen;
     color: #fff;
-    font-family: cursive;
+    font-family: sans-serif;
     font-weight: lighter;
     font-size: 20px;
     padding-top: 20px;
