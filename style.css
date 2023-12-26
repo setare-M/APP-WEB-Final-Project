@@ -164,7 +164,7 @@ body{
 }
 
 .about-afg{
-    display: flex;
+    display: block;
     gap: 30px;
     justify-content: center;
     margin-left: auto;
